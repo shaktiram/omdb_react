@@ -4,7 +4,6 @@ var eslint = require('gulp-eslint');
 
 gulp.src(['./package.json'])
     .pipe(install());
-
 gulp.task('lint', () => {
     return gulp.src(['./app/*.jsx', '!node_modules/**'])
         .pipe(eslint())
