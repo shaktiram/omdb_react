@@ -28,4 +28,4 @@ function addMovie(movie){
   var $anchor = $("<a>",{href : 'http://www.imdb.com/title/' + movie['imdbID'], target: '_blank'});
   $anchor.append($section)
   $movieSearchDiv.append($anchor);
-}
+}    
