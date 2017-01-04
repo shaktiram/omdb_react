@@ -1,0 +1,41 @@
+body {
+     font-family: 'Roboto' !important;
+     background-color: #deefe2;
+     overflow-x: hidden;
+}
+
+.centerAlign{
+  vertical-align: middle;
+}
+
+.searchField{
+  width: 50%;
+  margin: 20px;
+  height: 40px;
+  border-radius: 5px 5px;
+  border:none;
+}
+
+.heroImage{
+  height: 300px;
+  width: 100%;
+}
+.searchButton{
+  margin: 20px;
+  height: 40px;
+  border-radius: 5px 5px;
+  border:none;
+}
+
+.marginTop{
+  margin-top: 20px;
+}
+
+section{
+  margin-bottom: 20px;
+}
+
+section img{
+  height: 350px !important;
+  width: 100%;
+}
