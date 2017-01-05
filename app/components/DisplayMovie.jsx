@@ -30,3 +30,4 @@ export default class DisplayMovie extends React.Component{
 DisplayMovie.childContextTypes = {
     muiTheme: React.PropTypes.object.isRequired,
 };
+     

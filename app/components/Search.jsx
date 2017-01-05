@@ -92,7 +92,8 @@ export default class Search extends React.Component{
                     onSelect={this.handleSelect.bind(this)}
                     />
                 </div>;
-    }else{
+    }
+    else{
       content = null;
     }
 

@@ -10,4 +10,5 @@ ReactDOM.render((
     <Route path="/" component={App}/>
     <Route path="/movie/:title" component={AMovie}/>
   </Router>
+  
 ), document.getElementById('app'))

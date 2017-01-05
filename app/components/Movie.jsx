@@ -28,6 +28,7 @@ export default class Movie extends React.Component{
   }
 }
 
+
 Movie.childContextTypes = {
     muiTheme: React.PropTypes.object.isRequired,
 };
