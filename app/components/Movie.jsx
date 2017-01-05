@@ -20,7 +20,7 @@ export default class Movie extends React.Component{
     return (
       <Col md={2} sm={12}>
         <section>
-          <Link to={`/movie/${this.props.movie['Title']}`}><Image src={this.props.movie['Poster']} onClick={this.props.setActiveMovie.bind(null, this.props.index)} responsive/></Link>
+          <Link to={`/movie/${this.props.movie['imdbID']}`}><Image src={this.props.movie['Poster']} onClick={this.props.setActiveMovie.bind(null, this.props.index)} responsive/></Link>
           <h5>Title: {this.props.movie['Title']}</h5>
         </section>
       </Col>
