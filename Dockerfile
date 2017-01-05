@@ -1,14 +1,7 @@
-FROM node:boron
-
-# Create app directory
-RUN mkdir -p app
-WORKDIR app
-# Install app dependencies
-COPY package.json app/
+FROM mhart/alpine-node-auto
+RUN mkdir Dockerfolder
+WORKDIR Dockerfolder
+COPY . .
+RUN npm install -g http-server
 RUN npm install
-
-# Bundle app source
-COPY . app
-
-EXPOSE 3000
-CMD [ "npm", "start" ]
+CMD ["npm","start"]
