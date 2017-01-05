@@ -4,7 +4,8 @@
   "description": "Create Boilerplate for react,webpack and babel",
   "main": "",
   "scripts": {
-    "start": "webpack-dev-server --hot && node server.js"
+    "test" : "gulp",
+    "start": "npm test && webpack-dev-server --hot"
   },
   "author": "",
   "license": "ISC",
